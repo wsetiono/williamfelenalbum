@@ -1,4 +1,4 @@
 FROM mcr.microsoft.com/dotnet/sdk:5.0
 WORKDIR /app
 COPY /app /app
-CMD ASPNETCORE_URLS=http://*:$PORT dotnet ealbum.dll
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet eAlbum.dll

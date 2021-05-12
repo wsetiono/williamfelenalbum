@@ -15,7 +15,7 @@
     }
 </style>
 <div class="jumbotron">
-    <h1>Infinite Scroll</h1>
+    <h1>William Love Felen Album</h1>
 </div>
 <div class="row" id="DivImages">
 </div>
@@ -57,7 +57,9 @@
                         $(Response.data).each(function (index, ImagesData) {
                             console.log('ImagesData');
                             //console.log('ImagesData = ' + ImagesData);
-                            var AppendDiv = '<div class="col-md-4"><div class="thumbnail" ><img src="/UploadedFiles/' + ImagesData.fileName + '" alt="file" class="img-responsive" style="width:100%;height:250px;"></div></div>';
+                            @* var AppendDiv = '<div class="col-md-4"><div class="thumbnail" ><img src="/UploadedFiles/' + ImagesData.fileName + '" alt="file" class="img-responsive" style="width:100%;height:250px;"></div></div>'; *@
+                            @* https://cdn.jsdelivr.net/gh/wsetiono/williamfelenprewed/Prewedding/wwwroot/assets/images/gallery-07.jpg *@
+                            var AppendDiv = '<div class="col-md-4"><div class="thumbnail" ><img src="https://cdn.jsdelivr.net/gh/wsetiono/williamfelenalbum/wwwroot/UploadedFiles/' + ImagesData.fileName + '" alt="file" class="img-responsive" style="width:100%;height:250px;"></div></div>';
                             DivImages.append(AppendDiv);
                         });
                     }

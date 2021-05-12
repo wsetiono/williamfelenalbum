@@ -42,3 +42,13 @@
 /Users/williamsetiono/Desktop/eAlbum/eAlbum/bin/release/net5.0/app/appsettings.json
 /Users/williamsetiono/Desktop/eAlbum/eAlbum/bin/release/net5.0/app/eAlbum.deps.json
 /Users/williamsetiono/Desktop/eAlbum/eAlbum/bin/release/net5.0/app/eAlbum.runtimeconfig.json
+/Users/williamsetiono/Desktop/eAlbum/eAlbum/bin/release/net5.0/app/app/web.config
+/Users/williamsetiono/Desktop/eAlbum/eAlbum/bin/release/net5.0/app/app/appsettings.Development.json
+/Users/williamsetiono/Desktop/eAlbum/eAlbum/bin/release/net5.0/app/app/appsettings.json
+/Users/williamsetiono/Desktop/eAlbum/eAlbum/bin/release/net5.0/app/app/eAlbum.deps.json
+/Users/williamsetiono/Desktop/eAlbum/eAlbum/bin/release/net5.0/app/app/eAlbum.runtimeconfig.json
+/Users/williamsetiono/Desktop/eAlbum/eAlbum/bin/release/net5.0/app/app/app/web.config
+/Users/williamsetiono/Desktop/eAlbum/eAlbum/bin/release/net5.0/app/app/app/appsettings.Development.json
+/Users/williamsetiono/Desktop/eAlbum/eAlbum/bin/release/net5.0/app/app/app/appsettings.json
+/Users/williamsetiono/Desktop/eAlbum/eAlbum/bin/release/net5.0/app/app/app/eAlbum.deps.json
+/Users/williamsetiono/Desktop/eAlbum/eAlbum/bin/release/net5.0/app/app/app/eAlbum.runtimeconfig.json
