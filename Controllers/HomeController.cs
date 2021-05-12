@@ -23,129 +23,129 @@ namespace eAlbum.Controllers
             public int ImagesViewId { get; set; }
             public string FileName { get; set; }
         }
-        public static List<ImagesViewVM> imagesViewVMList = new List<ImagesViewVM>
-        {
-            new ImagesViewVM
-            {
-                ImagesViewId=1,
-                FileName="1.jpg"
-            },
-            new ImagesViewVM
-            {
-                ImagesViewId=2,
-                FileName="2.jpg"
-            },
-            new ImagesViewVM
-            {
-                ImagesViewId=3,
-                FileName="3.jpg"
-            },
-            new ImagesViewVM
-            {
-                ImagesViewId=4,
-                FileName="4.jpg"
-            },
-            new ImagesViewVM
-            {
-                ImagesViewId=5,
-                FileName="5.jpg"
-            },
-            new ImagesViewVM
-            {
-                ImagesViewId=6,
-                FileName="6.jpg"
-            },
-            new ImagesViewVM
-            {
-                ImagesViewId=7,
-                FileName="7.jpg"
-            },
-            new ImagesViewVM
-            {
-                ImagesViewId=8,
-                FileName="8.jpg"
-            },
-            new ImagesViewVM
-            {
-                ImagesViewId=9,
-                FileName="9.jpg"
-            },
-            new ImagesViewVM
-            {
-                ImagesViewId=10,
-                FileName="10.jpg"
-            },
-            new ImagesViewVM
-            {
-                ImagesViewId=11,
-                FileName="11.jpg"
-            },
-            new ImagesViewVM
-            {
-                ImagesViewId=12,
-                FileName="12.jpg"
-            },
-            new ImagesViewVM
-            {
-                ImagesViewId=13,
-                FileName="13.jpg"
-            }//,
-            // new ImagesViewVM
-            // {
-            //     ImagesViewId=14,
-            //     FileName="14.jpg"
-            // },
-            // new ImagesViewVM
-            // {
-            //     ImagesViewId=15,
-            //     FileName="15.jpg"
-            // },
-            // new ImagesViewVM
-            // {
-            //     ImagesViewId=16,
-            //     FileName="16.jpg"
-            // },
-            // new ImagesViewVM
-            // {
-            //     ImagesViewId=17,
-            //     FileName="17.jpg"
-            // },
-            // new ImagesViewVM
-            // {
-            //     ImagesViewId=18,
-            //     FileName="18.jpg"
-            // },
-            // new ImagesViewVM
-            // {
-            //     ImagesViewId=19,
-            //     FileName="19.jpg"
-            // },
-            // new ImagesViewVM
-            // {
-            //     ImagesViewId=20,
-            //     FileName="20.jpg"
-            // },
-            // new ImagesViewVM
-            // {
-            //     ImagesViewId=21,
-            //     FileName="21.jpg"
-            // },
-            // new ImagesViewVM
-            // {
-            //     ImagesViewId=22,
-            //     FileName="22.jpg"
-            // },
-            // new ImagesViewVM
-            // {
-            //     ImagesViewId=23,
-            //     FileName="23.jpg"
-            // },
-            // new ImagesViewVM
-            // {
-            //     ImagesViewId=24,
-            //     FileName="24.jpg"
-            // }
-        };
+        // public static List<ImagesViewVM> imagesViewVMList = new List<ImagesViewVM>
+        // {
+        //     new ImagesViewVM
+        //     {
+        //         ImagesViewId=1,
+        //         FileName="1.jpg"
+        //     },
+        //     new ImagesViewVM
+        //     {
+        //         ImagesViewId=2,
+        //         FileName="2.jpg"
+        //     },
+        //     new ImagesViewVM
+        //     {
+        //         ImagesViewId=3,
+        //         FileName="3.jpg"
+        //     },
+        //     new ImagesViewVM
+        //     {
+        //         ImagesViewId=4,
+        //         FileName="4.jpg"
+        //     },
+        //     new ImagesViewVM
+        //     {
+        //         ImagesViewId=5,
+        //         FileName="5.jpg"
+        //     },
+        //     new ImagesViewVM
+        //     {
+        //         ImagesViewId=6,
+        //         FileName="6.jpg"
+        //     },
+        //     new ImagesViewVM
+        //     {
+        //         ImagesViewId=7,
+        //         FileName="7.jpg"
+        //     },
+        //     new ImagesViewVM
+        //     {
+        //         ImagesViewId=8,
+        //         FileName="8.jpg"
+        //     },
+        //     new ImagesViewVM
+        //     {
+        //         ImagesViewId=9,
+        //         FileName="9.jpg"
+        //     },
+        //     new ImagesViewVM
+        //     {
+        //         ImagesViewId=10,
+        //         FileName="10.jpg"
+        //     },
+        //     new ImagesViewVM
+        //     {
+        //         ImagesViewId=11,
+        //         FileName="11.jpg"
+        //     },
+        //     new ImagesViewVM
+        //     {
+        //         ImagesViewId=12,
+        //         FileName="12.jpg"
+        //     },
+        //     new ImagesViewVM
+        //     {
+        //         ImagesViewId=13,
+        //         FileName="13.jpg"
+        //     }//,
+        //     // new ImagesViewVM
+        //     // {
+        //     //     ImagesViewId=14,
+        //     //     FileName="14.jpg"
+        //     // },
+        //     // new ImagesViewVM
+        //     // {
+        //     //     ImagesViewId=15,
+        //     //     FileName="15.jpg"
+        //     // },
+        //     // new ImagesViewVM
+        //     // {
+        //     //     ImagesViewId=16,
+        //     //     FileName="16.jpg"
+        //     // },
+        //     // new ImagesViewVM
+        //     // {
+        //     //     ImagesViewId=17,
+        //     //     FileName="17.jpg"
+        //     // },
+        //     // new ImagesViewVM
+        //     // {
+        //     //     ImagesViewId=18,
+        //     //     FileName="18.jpg"
+        //     // },
+        //     // new ImagesViewVM
+        //     // {
+        //     //     ImagesViewId=19,
+        //     //     FileName="19.jpg"
+        //     // },
+        //     // new ImagesViewVM
+        //     // {
+        //     //     ImagesViewId=20,
+        //     //     FileName="20.jpg"
+        //     // },
+        //     // new ImagesViewVM
+        //     // {
+        //     //     ImagesViewId=21,
+        //     //     FileName="21.jpg"
+        //     // },
+        //     // new ImagesViewVM
+        //     // {
+        //     //     ImagesViewId=22,
+        //     //     FileName="22.jpg"
+        //     // },
+        //     // new ImagesViewVM
+        //     // {
+        //     //     ImagesViewId=23,
+        //     //     FileName="23.jpg"
+        //     // },
+        //     // new ImagesViewVM
+        //     // {
+        //     //     ImagesViewId=24,
+        //     //     FileName="24.jpg"
+        //     // }
+        // };
 
         public IActionResult Index()
         {
@@ -159,6 +159,23 @@ namespace eAlbum.Controllers
             try
             {
                 pageNumber = pageNumber - 1;
+
+                List<ImagesViewVM> imagesViewVMList = new List<ImagesViewVM>();
+
+                for(int i = 0; i<=410; i++)
+                {
+                    ImagesViewVM eachImagesViewVM = new ImagesViewVM();
+                    eachImagesViewVM.ImagesViewId = i;
+
+                    if(i < 10)
+                        eachImagesViewVM.FileName = "iFoto0" + i + ".jpg"; 
+                    else
+                        eachImagesViewVM.FileName = "iFoto" + i + ".jpg"; 
+
+                    imagesViewVMList.Add(eachImagesViewVM); 
+                }
+                
+                
                 var CertificateList = imagesViewVMList.Skip(pageNumber * pageSize).Take(pageSize).ToList();
                 bool NoMoredata = false;
                 if (CertificateList.Count() <= 0)
